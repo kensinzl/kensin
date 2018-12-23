@@ -1,0 +1,1275 @@
+2018-Nov-19 22:31:34 PM [main] DEBUG org.hibernate.SQL - 
+    
+    drop table if exists books
+2018-Nov-19 22:31:34 PM [main] DEBUG org.hibernate.SQL - 
+    
+    create table books (
+       id int(11) not null,
+        name varchar(50) not null,
+        author varchar(20) not null,
+        price decimal(11) not null,
+        quantity int(11) not null,
+        primary key (id)
+    ) engine=MyISAM
+2018-Nov-19 22:31:34 PM [main] DEBUG org.hibernate.SQL - 
+    /* insert src.entities.Books
+        */ insert 
+        into
+            books
+            (name, author, price, quantity, id) 
+        values
+            (?, ?, ?, ?, ?)
+2018-Nov-19 22:31:35 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [1] as [VARCHAR] - [Test]
+2018-Nov-19 22:31:35 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [2] as [VARCHAR] - [Test]
+2018-Nov-19 22:31:35 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [3] as [INTEGER] - [100]
+2018-Nov-19 22:31:35 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [4] as [INTEGER] - [1]
+2018-Nov-19 22:31:35 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [5] as [INTEGER] - [100]
+2018-Nov-19 22:36:06 PM [main] DEBUG org.hibernate.SQL - 
+    
+    drop table if exists books
+2018-Nov-19 22:36:06 PM [main] DEBUG org.hibernate.SQL - 
+    
+    create table books (
+       id int(11) not null,
+        name varchar(50) not null,
+        author varchar(20) not null,
+        price decimal(11) not null,
+        quantity int(11) not null,
+        primary key (id)
+    ) engine=MyISAM
+2018-Nov-19 22:36:07 PM [main] DEBUG org.hibernate.SQL - 
+    /* insert src.entities.Books
+        */ insert 
+        into
+            books
+            (name, author, price, quantity, id) 
+        values
+            (?, ?, ?, ?, ?)
+2018-Nov-19 22:36:07 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [1] as [VARCHAR] - [Test]
+2018-Nov-19 22:36:07 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [2] as [VARCHAR] - [Test]
+2018-Nov-19 22:36:07 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [3] as [INTEGER] - [100]
+2018-Nov-19 22:36:07 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [4] as [INTEGER] - [1]
+2018-Nov-19 22:36:07 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [5] as [INTEGER] - [100]
+2018-Nov-19 22:38:54 PM [main] DEBUG org.hibernate.SQL - 
+    
+    drop table if exists books
+2018-Nov-19 22:38:54 PM [main] DEBUG org.hibernate.SQL - 
+    
+    create table books (
+       id int(11) not null,
+        name varchar(50) not null,
+        author varchar(20) not null,
+        price decimal(11) not null,
+        quantity int(11) not null,
+        primary key (id)
+    ) engine=MyISAM
+2018-Nov-19 22:38:54 PM [main] DEBUG org.hibernate.SQL - 
+    /* insert src.entities.Books
+        */ insert 
+        into
+            books
+            (name, author, price, quantity, id) 
+        values
+            (?, ?, ?, ?, ?)
+2018-Nov-19 22:38:54 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [1] as [VARCHAR] - [Test]
+2018-Nov-19 22:38:54 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [2] as [VARCHAR] - [Test]
+2018-Nov-19 22:38:54 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [3] as [INTEGER] - [100]
+2018-Nov-19 22:38:54 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [4] as [INTEGER] - [1]
+2018-Nov-19 22:38:54 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [5] as [INTEGER] - [100]
+2018-Nov-19 22:39:52 PM [main] DEBUG org.hibernate.SQL - 
+    
+    drop table if exists books
+2018-Nov-19 22:39:52 PM [main] DEBUG org.hibernate.SQL - 
+    
+    create table books (
+       id int(11) not null,
+        name varchar(50) not null,
+        author varchar(20) not null,
+        price decimal(11) not null,
+        quantity int(11) not null,
+        primary key (id)
+    ) engine=MyISAM
+2018-Nov-19 22:39:53 PM [main] DEBUG org.hibernate.SQL - 
+    /* insert src.entities.Books
+        */ insert 
+        into
+            books
+            (name, author, price, quantity, id) 
+        values
+            (?, ?, ?, ?, ?)
+2018-Nov-19 22:39:53 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [1] as [VARCHAR] - [Test]
+2018-Nov-19 22:39:53 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [2] as [VARCHAR] - [Test]
+2018-Nov-19 22:39:53 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [3] as [INTEGER] - [100]
+2018-Nov-19 22:39:53 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [4] as [INTEGER] - [1]
+2018-Nov-19 22:39:53 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [5] as [INTEGER] - [100]
+2018-Nov-19 22:45:52 PM [main] DEBUG org.hibernate.SQL - 
+    
+    drop table if exists books
+2018-Nov-19 22:45:52 PM [main] DEBUG org.hibernate.SQL - 
+    
+    create table books (
+       id int(11) not null,
+        name varchar(50) not null,
+        author varchar(20) not null,
+        price decimal(11) not null,
+        quantity int(11) not null,
+        primary key (id)
+    ) engine=MyISAM
+2018-Nov-19 22:45:53 PM [main] DEBUG org.hibernate.SQL - 
+    /* insert src.entities.Books
+        */ insert 
+        into
+            books
+            (name, author, price, quantity, id) 
+        values
+            (?, ?, ?, ?, ?)
+2018-Nov-19 22:45:53 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [1] as [VARCHAR] - [Test]
+2018-Nov-19 22:45:53 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [2] as [VARCHAR] - [Test]
+2018-Nov-19 22:45:53 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [3] as [INTEGER] - [100]
+2018-Nov-19 22:45:53 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [4] as [INTEGER] - [1]
+2018-Nov-19 22:45:53 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [5] as [INTEGER] - [100]
+2018-Nov-19 22:48:44 PM [main] DEBUG org.hibernate.SQL - 
+    
+    drop table if exists books
+2018-Nov-19 22:48:44 PM [main] DEBUG org.hibernate.SQL - 
+    
+    create table books (
+       id int(11) not null,
+        name varchar(50) not null,
+        author varchar(20) not null,
+        price decimal(11) not null,
+        quantity int(11) not null,
+        primary key (id)
+    ) engine=MyISAM
+2018-Nov-19 22:48:44 PM [main] INFO  src.HelloWorld - *********** book **********: src.entities.Books@aac09960
+2018-Nov-19 22:48:44 PM [main] DEBUG org.hibernate.SQL - 
+    /* insert src.entities.Books
+        */ insert 
+        into
+            books
+            (name, author, price, quantity, id) 
+        values
+            (?, ?, ?, ?, ?)
+2018-Nov-19 22:48:44 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [1] as [VARCHAR] - [Test]
+2018-Nov-19 22:48:44 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [2] as [VARCHAR] - [Test]
+2018-Nov-19 22:48:44 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [3] as [INTEGER] - [100]
+2018-Nov-19 22:48:44 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [4] as [INTEGER] - [1]
+2018-Nov-19 22:48:44 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [5] as [INTEGER] - [100]
+2018-Nov-19 23:04:31 PM [main] DEBUG org.hibernate.SQL - 
+    
+    drop table if exists books
+2018-Nov-19 23:04:31 PM [main] DEBUG org.hibernate.SQL - 
+    
+    create table books (
+       id int(11) not null,
+        name varchar(50) not null,
+        author varchar(20) not null,
+        price decimal(11) not null,
+        quantity int(11) not null,
+        primary key (id)
+    ) engine=MyISAM
+2018-Nov-19 23:04:31 PM [main] INFO  src.HelloWorld - *********** book **********: src.entities.Books@aac09960
+2018-Nov-19 23:04:31 PM [main] DEBUG org.hibernate.SQL - 
+    /* insert src.entities.Books
+        */ insert 
+        into
+            books
+            (name, author, price, quantity, id) 
+        values
+            (?, ?, ?, ?, ?)
+2018-Nov-19 23:04:32 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [1] as [VARCHAR] - [Test]
+2018-Nov-19 23:04:32 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [2] as [VARCHAR] - [Test]
+2018-Nov-19 23:04:32 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [3] as [INTEGER] - [100]
+2018-Nov-19 23:04:32 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [4] as [INTEGER] - [1]
+2018-Nov-19 23:04:32 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [5] as [INTEGER] - [100]
+2018-Nov-19 23:09:00 PM [main] DEBUG org.hibernate.SQL - 
+    
+    alter table sys.books 
+       add column status varchar(50) not null
+2018-Nov-19 23:09:00 PM [main] INFO  src.HelloWorld - *********** book **********: src.entities.Books@af07751b
+2018-Nov-19 23:09:00 PM [main] DEBUG org.hibernate.SQL - 
+    /* insert src.entities.Books
+        */ insert 
+        into
+            books
+            (name, author, price, quantity, status, id) 
+        values
+            (?, ?, ?, ?, ?, ?)
+2018-Nov-19 23:09:00 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [1] as [VARCHAR] - [Test]
+2018-Nov-19 23:09:00 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [2] as [VARCHAR] - [Test]
+2018-Nov-19 23:09:00 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [3] as [INTEGER] - [100]
+2018-Nov-19 23:09:00 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [4] as [INTEGER] - [1]
+2018-Nov-19 23:09:00 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [5] as [VARCHAR] - [OK]
+2018-Nov-19 23:09:00 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [6] as [INTEGER] - [101]
+2018-Nov-20 22:38:30 PM [main] INFO  src.HelloWorld - *********** book **********: src.entities.Books@af07751b
+2018-Nov-20 22:38:30 PM [main] DEBUG org.hibernate.SQL - 
+    /* insert src.entities.Books
+        */ insert 
+        into
+            books
+            (name, author, price, quantity, status, id) 
+        values
+            (?, ?, ?, ?, ?, ?)
+2018-Nov-20 22:38:30 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [1] as [VARCHAR] - [Test]
+2018-Nov-20 22:38:30 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [2] as [VARCHAR] - [Test]
+2018-Nov-20 22:38:30 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [3] as [INTEGER] - [100]
+2018-Nov-20 22:38:30 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [4] as [INTEGER] - [1]
+2018-Nov-20 22:38:30 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [5] as [VARCHAR] - [OK]
+2018-Nov-20 22:38:30 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [6] as [INTEGER] - [101]
+2018-Nov-20 22:39:05 PM [main] DEBUG org.hibernate.SQL - 
+    select
+        books0_.id as id1_0_0_,
+        books0_.name as name2_0_0_,
+        books0_.author as author3_0_0_,
+        books0_.price as price4_0_0_,
+        books0_.quantity as quantity5_0_0_,
+        books0_.status as status6_0_0_ 
+    from
+        books books0_ 
+    where
+        books0_.id=?
+2018-Nov-20 22:39:05 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [1] as [INTEGER] - [101]
+2018-Nov-20 22:39:05 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([name2_0_0_] : [VARCHAR]) - [Test]
+2018-Nov-20 22:39:05 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([author3_0_0_] : [VARCHAR]) - [Test]
+2018-Nov-20 22:39:05 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([price4_0_0_] : [INTEGER]) - [100]
+2018-Nov-20 22:39:05 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([quantity5_0_0_] : [INTEGER]) - [1]
+2018-Nov-20 22:39:05 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([status6_0_0_] : [VARCHAR]) - [OK]
+2018-Nov-20 22:39:05 PM [main] INFO  src.dao.DbOperations - ----- load the book: src.entities.Books@af07751b
+2018-Nov-20 22:47:44 PM [main] DEBUG org.hibernate.SQL - 
+    select
+        books0_.id as id1_0_0_,
+        books0_.name as name2_0_0_,
+        books0_.author as author3_0_0_,
+        books0_.price as price4_0_0_,
+        books0_.quantity as quantity5_0_0_,
+        books0_.status as status6_0_0_ 
+    from
+        books books0_ 
+    where
+        books0_.id=?
+2018-Nov-20 22:47:44 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [1] as [INTEGER] - [101]
+2018-Nov-20 22:47:44 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([name2_0_0_] : [VARCHAR]) - [Test]
+2018-Nov-20 22:47:44 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([author3_0_0_] : [VARCHAR]) - [Test]
+2018-Nov-20 22:47:44 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([price4_0_0_] : [INTEGER]) - [100]
+2018-Nov-20 22:47:44 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([quantity5_0_0_] : [INTEGER]) - [1]
+2018-Nov-20 22:47:44 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([status6_0_0_] : [VARCHAR]) - [OK]
+2018-Nov-20 22:47:44 PM [main] INFO  src.dao.DbOperations - ----- load the book: src.entities.Books@af07751b
+2018-Nov-20 22:48:15 PM [main] DEBUG org.hibernate.SQL - 
+    select
+        books0_.id as id1_0_0_,
+        books0_.name as name2_0_0_,
+        books0_.author as author3_0_0_,
+        books0_.price as price4_0_0_,
+        books0_.quantity as quantity5_0_0_,
+        books0_.status as status6_0_0_ 
+    from
+        books books0_ 
+    where
+        books0_.id=?
+2018-Nov-20 22:48:15 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [1] as [INTEGER] - [101]
+2018-Nov-20 22:48:15 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([name2_0_0_] : [VARCHAR]) - [Test]
+2018-Nov-20 22:48:15 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([author3_0_0_] : [VARCHAR]) - [Test]
+2018-Nov-20 22:48:15 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([price4_0_0_] : [INTEGER]) - [100]
+2018-Nov-20 22:48:15 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([quantity5_0_0_] : [INTEGER]) - [1]
+2018-Nov-20 22:48:15 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([status6_0_0_] : [VARCHAR]) - [OK]
+2018-Nov-20 22:48:15 PM [main] INFO  src.dao.DbOperations - ----- load the book: src.entities.Books@af07751b
+2018-Nov-20 22:49:52 PM [main] DEBUG org.hibernate.SQL - 
+    select
+        books0_.id as id1_0_0_,
+        books0_.name as name2_0_0_,
+        books0_.author as author3_0_0_,
+        books0_.price as price4_0_0_,
+        books0_.quantity as quantity5_0_0_,
+        books0_.status as status6_0_0_ 
+    from
+        books books0_ 
+    where
+        books0_.id=?
+2018-Nov-20 22:49:52 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [1] as [INTEGER] - [101]
+2018-Nov-20 22:49:52 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([name2_0_0_] : [VARCHAR]) - [Test]
+2018-Nov-20 22:49:52 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([author3_0_0_] : [VARCHAR]) - [Test]
+2018-Nov-20 22:49:52 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([price4_0_0_] : [INTEGER]) - [100]
+2018-Nov-20 22:49:52 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([quantity5_0_0_] : [INTEGER]) - [1]
+2018-Nov-20 22:49:52 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([status6_0_0_] : [VARCHAR]) - [OK]
+2018-Nov-20 22:49:52 PM [main] INFO  src.dao.DbOperations - ----- load the book: src.entities.Books@af07751b
+2018-Nov-20 22:49:52 PM [main] DEBUG org.hibernate.SQL - 
+    /* 
+from
+    Books */ select
+        books0_.id as id1_0_,
+        books0_.name as name2_0_,
+        books0_.author as author3_0_,
+        books0_.price as price4_0_,
+        books0_.quantity as quantity5_0_,
+        books0_.status as status6_0_ 
+    from
+        books books0_
+2018-Nov-20 22:49:52 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([id1_0_] : [INTEGER]) - [100]
+2018-Nov-20 22:49:52 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([name2_0_] : [VARCHAR]) - [Test]
+2018-Nov-20 22:49:52 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([author3_0_] : [VARCHAR]) - [Test]
+2018-Nov-20 22:49:52 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([price4_0_] : [INTEGER]) - [100]
+2018-Nov-20 22:49:52 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([quantity5_0_] : [INTEGER]) - [1]
+2018-Nov-20 22:49:52 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([status6_0_] : [VARCHAR]) - []
+2018-Nov-20 22:49:52 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([id1_0_] : [INTEGER]) - [101]
+2018-Nov-20 22:49:52 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([name2_0_] : [VARCHAR]) - [Test]
+2018-Nov-20 22:49:52 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([author3_0_] : [VARCHAR]) - [Test]
+2018-Nov-20 22:49:52 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([price4_0_] : [INTEGER]) - [100]
+2018-Nov-20 22:49:52 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([quantity5_0_] : [INTEGER]) - [1]
+2018-Nov-20 22:49:52 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([status6_0_] : [VARCHAR]) - [OK]
+2018-Nov-20 22:49:52 PM [main] INFO  src.dao.DbOperations - ----- all books: [src.entities.Books@ad5292a0, src.entities.Books@af07751b]
+2018-Nov-20 22:54:27 PM [main] DEBUG org.hibernate.SQL - 
+    select
+        books0_.id as id1_0_0_,
+        books0_.name as name2_0_0_,
+        books0_.author as author3_0_0_,
+        books0_.price as price4_0_0_,
+        books0_.quantity as quantity5_0_0_,
+        books0_.status as status6_0_0_ 
+    from
+        books books0_ 
+    where
+        books0_.id=?
+2018-Nov-20 22:54:27 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [1] as [INTEGER] - [101]
+2018-Nov-20 22:54:27 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([name2_0_0_] : [VARCHAR]) - [Test]
+2018-Nov-20 22:54:27 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([author3_0_0_] : [VARCHAR]) - [Test]
+2018-Nov-20 22:54:27 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([price4_0_0_] : [INTEGER]) - [100]
+2018-Nov-20 22:54:27 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([quantity5_0_0_] : [INTEGER]) - [1]
+2018-Nov-20 22:54:27 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([status6_0_0_] : [VARCHAR]) - [OK]
+2018-Nov-20 22:54:27 PM [main] INFO  src.dao.DbOperations - ----- load the book: src.entities.Books@af07751b
+2018-Nov-20 22:54:27 PM [main] DEBUG org.hibernate.SQL - 
+    /* 
+from
+    Books */ select
+        books0_.id as id1_0_,
+        books0_.name as name2_0_,
+        books0_.author as author3_0_,
+        books0_.price as price4_0_,
+        books0_.quantity as quantity5_0_,
+        books0_.status as status6_0_ 
+    from
+        books books0_
+2018-Nov-20 22:54:27 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([id1_0_] : [INTEGER]) - [100]
+2018-Nov-20 22:54:27 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([name2_0_] : [VARCHAR]) - [Test]
+2018-Nov-20 22:54:27 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([author3_0_] : [VARCHAR]) - [Test]
+2018-Nov-20 22:54:27 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([price4_0_] : [INTEGER]) - [100]
+2018-Nov-20 22:54:27 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([quantity5_0_] : [INTEGER]) - [1]
+2018-Nov-20 22:54:27 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([status6_0_] : [VARCHAR]) - []
+2018-Nov-20 22:54:27 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([id1_0_] : [INTEGER]) - [101]
+2018-Nov-20 22:54:27 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([name2_0_] : [VARCHAR]) - [Test]
+2018-Nov-20 22:54:27 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([author3_0_] : [VARCHAR]) - [Test]
+2018-Nov-20 22:54:27 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([price4_0_] : [INTEGER]) - [100]
+2018-Nov-20 22:54:27 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([quantity5_0_] : [INTEGER]) - [1]
+2018-Nov-20 22:54:27 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([status6_0_] : [VARCHAR]) - [OK]
+2018-Nov-20 22:54:27 PM [main] INFO  src.dao.DbOperations - ----- all books: [src.entities.Books@ad5292a0, src.entities.Books@af07751b]
+2018-Nov-27 21:24:02 PM [main] DEBUG org.hibernate.SQL - 
+    select
+        books0_.id as id1_0_0_,
+        books0_.name as name2_0_0_,
+        books0_.author as author3_0_0_,
+        books0_.price as price4_0_0_,
+        books0_.quantity as quantity5_0_0_,
+        books0_.status as status6_0_0_ 
+    from
+        books books0_ 
+    where
+        books0_.id=?
+2018-Nov-27 21:24:02 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [1] as [INTEGER] - [101]
+2018-Nov-27 21:24:03 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([name2_0_0_] : [VARCHAR]) - [Test]
+2018-Nov-27 21:24:03 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([author3_0_0_] : [VARCHAR]) - [Test]
+2018-Nov-27 21:24:03 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([price4_0_0_] : [INTEGER]) - [100]
+2018-Nov-27 21:24:03 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([quantity5_0_0_] : [INTEGER]) - [1]
+2018-Nov-27 21:24:03 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([status6_0_0_] : [VARCHAR]) - [OK]
+2018-Nov-27 21:24:03 PM [main] INFO  src.dao.DbOperations - ----- load the book: src.entities.Books@af07751b
+2018-Nov-27 21:24:03 PM [main] DEBUG org.hibernate.SQL - 
+    /* 
+from
+    Books */ select
+        books0_.id as id1_0_,
+        books0_.name as name2_0_,
+        books0_.author as author3_0_,
+        books0_.price as price4_0_,
+        books0_.quantity as quantity5_0_,
+        books0_.status as status6_0_ 
+    from
+        books books0_
+2018-Nov-27 21:24:03 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([id1_0_] : [INTEGER]) - [100]
+2018-Nov-27 21:24:03 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([name2_0_] : [VARCHAR]) - [Test]
+2018-Nov-27 21:24:03 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([author3_0_] : [VARCHAR]) - [Test]
+2018-Nov-27 21:24:03 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([price4_0_] : [INTEGER]) - [100]
+2018-Nov-27 21:24:03 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([quantity5_0_] : [INTEGER]) - [1]
+2018-Nov-27 21:24:03 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([status6_0_] : [VARCHAR]) - []
+2018-Nov-27 21:24:03 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([id1_0_] : [INTEGER]) - [101]
+2018-Nov-27 21:24:03 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([name2_0_] : [VARCHAR]) - [Test]
+2018-Nov-27 21:24:03 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([author3_0_] : [VARCHAR]) - [Test]
+2018-Nov-27 21:24:03 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([price4_0_] : [INTEGER]) - [100]
+2018-Nov-27 21:24:03 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([quantity5_0_] : [INTEGER]) - [1]
+2018-Nov-27 21:24:03 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([status6_0_] : [VARCHAR]) - [OK]
+2018-Nov-27 21:24:03 PM [main] INFO  src.dao.DbOperations - ----- all books: [src.entities.Books@ad5292a0, src.entities.Books@af07751b]
+2018-Nov-27 21:50:22 PM [main] DEBUG org.hibernate.SQL - 
+    
+    alter table sys.car 
+       add column car_index integer
+2018-Nov-27 21:50:22 PM [main] DEBUG org.hibernate.SQL - 
+    select
+        books0_.id as id1_0_0_,
+        books0_.name as name2_0_0_,
+        books0_.author as author3_0_0_,
+        books0_.price as price4_0_0_,
+        books0_.quantity as quantity5_0_0_,
+        books0_.status as status6_0_0_ 
+    from
+        books books0_ 
+    where
+        books0_.id=?
+2018-Nov-27 21:50:22 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [1] as [INTEGER] - [101]
+2018-Nov-27 21:50:22 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([name2_0_0_] : [VARCHAR]) - [Test]
+2018-Nov-27 21:50:22 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([author3_0_0_] : [VARCHAR]) - [Test]
+2018-Nov-27 21:50:22 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([price4_0_0_] : [INTEGER]) - [100]
+2018-Nov-27 21:50:22 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([quantity5_0_0_] : [INTEGER]) - [1]
+2018-Nov-27 21:50:22 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([status6_0_0_] : [VARCHAR]) - [OK]
+2018-Nov-27 21:50:22 PM [main] INFO  src.dao.DbOperations - ----- load the book: src.entities.Books@af07751b
+2018-Nov-27 21:50:22 PM [main] DEBUG org.hibernate.SQL - 
+    /* 
+from
+    Books */ select
+        books0_.id as id1_0_,
+        books0_.name as name2_0_,
+        books0_.author as author3_0_,
+        books0_.price as price4_0_,
+        books0_.quantity as quantity5_0_,
+        books0_.status as status6_0_ 
+    from
+        books books0_
+2018-Nov-27 21:50:22 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([id1_0_] : [INTEGER]) - [100]
+2018-Nov-27 21:50:22 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([name2_0_] : [VARCHAR]) - [Test]
+2018-Nov-27 21:50:22 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([author3_0_] : [VARCHAR]) - [Test]
+2018-Nov-27 21:50:22 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([price4_0_] : [INTEGER]) - [100]
+2018-Nov-27 21:50:22 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([quantity5_0_] : [INTEGER]) - [1]
+2018-Nov-27 21:50:22 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([status6_0_] : [VARCHAR]) - []
+2018-Nov-27 21:50:22 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([id1_0_] : [INTEGER]) - [101]
+2018-Nov-27 21:50:22 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([name2_0_] : [VARCHAR]) - [Test]
+2018-Nov-27 21:50:22 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([author3_0_] : [VARCHAR]) - [Test]
+2018-Nov-27 21:50:22 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([price4_0_] : [INTEGER]) - [100]
+2018-Nov-27 21:50:22 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([quantity5_0_] : [INTEGER]) - [1]
+2018-Nov-27 21:50:22 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([status6_0_] : [VARCHAR]) - [OK]
+2018-Nov-27 21:50:22 PM [main] INFO  src.dao.DbOperations - ----- all books: [src.entities.Books@ad5292a0, src.entities.Books@af07751b]
+2018-Nov-27 21:50:22 PM [main] DEBUG org.hibernate.SQL - 
+    /* get current state src.entities.Car */ select
+        car_.car_id,
+        car_.color as color2_1_,
+        car_.name as name3_1_ 
+    from
+        car car_ 
+    where
+        car_.car_id=?
+2018-Nov-27 21:50:22 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [1] as [INTEGER] - [0]
+2018-Nov-27 22:16:14 PM [main] DEBUG org.hibernate.SQL - 
+    select
+        books0_.id as id1_0_0_,
+        books0_.name as name2_0_0_,
+        books0_.author as author3_0_0_,
+        books0_.price as price4_0_0_,
+        books0_.quantity as quantity5_0_0_,
+        books0_.status as status6_0_0_ 
+    from
+        books books0_ 
+    where
+        books0_.id=?
+2018-Nov-27 22:16:14 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [1] as [INTEGER] - [101]
+2018-Nov-27 22:16:14 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([name2_0_0_] : [VARCHAR]) - [Test]
+2018-Nov-27 22:16:14 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([author3_0_0_] : [VARCHAR]) - [Test]
+2018-Nov-27 22:16:14 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([price4_0_0_] : [INTEGER]) - [100]
+2018-Nov-27 22:16:14 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([quantity5_0_0_] : [INTEGER]) - [1]
+2018-Nov-27 22:16:14 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([status6_0_0_] : [VARCHAR]) - [OK]
+2018-Nov-27 22:16:14 PM [main] INFO  src.dao.DbOperations - ----- load the book: src.entities.Books@af07751b
+2018-Nov-27 22:16:14 PM [main] DEBUG org.hibernate.SQL - 
+    /* 
+from
+    Books */ select
+        books0_.id as id1_0_,
+        books0_.name as name2_0_,
+        books0_.author as author3_0_,
+        books0_.price as price4_0_,
+        books0_.quantity as quantity5_0_,
+        books0_.status as status6_0_ 
+    from
+        books books0_
+2018-Nov-27 22:16:14 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([id1_0_] : [INTEGER]) - [100]
+2018-Nov-27 22:16:14 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([name2_0_] : [VARCHAR]) - [Test]
+2018-Nov-27 22:16:14 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([author3_0_] : [VARCHAR]) - [Test]
+2018-Nov-27 22:16:14 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([price4_0_] : [INTEGER]) - [100]
+2018-Nov-27 22:16:14 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([quantity5_0_] : [INTEGER]) - [1]
+2018-Nov-27 22:16:14 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([status6_0_] : [VARCHAR]) - []
+2018-Nov-27 22:16:14 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([id1_0_] : [INTEGER]) - [101]
+2018-Nov-27 22:16:14 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([name2_0_] : [VARCHAR]) - [Test]
+2018-Nov-27 22:16:14 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([author3_0_] : [VARCHAR]) - [Test]
+2018-Nov-27 22:16:14 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([price4_0_] : [INTEGER]) - [100]
+2018-Nov-27 22:16:14 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([quantity5_0_] : [INTEGER]) - [1]
+2018-Nov-27 22:16:14 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([status6_0_] : [VARCHAR]) - [OK]
+2018-Nov-27 22:16:14 PM [main] INFO  src.dao.DbOperations - ----- all books: [src.entities.Books@ad5292a0, src.entities.Books@af07751b]
+2018-Nov-27 22:18:56 PM [main] DEBUG org.hibernate.SQL - 
+    select
+        books0_.id as id1_0_0_,
+        books0_.name as name2_0_0_,
+        books0_.author as author3_0_0_,
+        books0_.price as price4_0_0_,
+        books0_.quantity as quantity5_0_0_,
+        books0_.status as status6_0_0_ 
+    from
+        books books0_ 
+    where
+        books0_.id=?
+2018-Nov-27 22:18:56 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [1] as [INTEGER] - [101]
+2018-Nov-27 22:18:56 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([name2_0_0_] : [VARCHAR]) - [Test]
+2018-Nov-27 22:18:56 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([author3_0_0_] : [VARCHAR]) - [Test]
+2018-Nov-27 22:18:56 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([price4_0_0_] : [INTEGER]) - [100]
+2018-Nov-27 22:18:56 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([quantity5_0_0_] : [INTEGER]) - [1]
+2018-Nov-27 22:18:56 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([status6_0_0_] : [VARCHAR]) - [OK]
+2018-Nov-27 22:18:56 PM [main] INFO  src.dao.DbOperations - ----- load the book: src.entities.Books@af07751b
+2018-Nov-27 22:18:56 PM [main] DEBUG org.hibernate.SQL - 
+    /* 
+from
+    Books */ select
+        books0_.id as id1_0_,
+        books0_.name as name2_0_,
+        books0_.author as author3_0_,
+        books0_.price as price4_0_,
+        books0_.quantity as quantity5_0_,
+        books0_.status as status6_0_ 
+    from
+        books books0_
+2018-Nov-27 22:18:56 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([id1_0_] : [INTEGER]) - [100]
+2018-Nov-27 22:18:56 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([name2_0_] : [VARCHAR]) - [Test]
+2018-Nov-27 22:18:56 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([author3_0_] : [VARCHAR]) - [Test]
+2018-Nov-27 22:18:56 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([price4_0_] : [INTEGER]) - [100]
+2018-Nov-27 22:18:56 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([quantity5_0_] : [INTEGER]) - [1]
+2018-Nov-27 22:18:56 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([status6_0_] : [VARCHAR]) - []
+2018-Nov-27 22:18:56 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([id1_0_] : [INTEGER]) - [101]
+2018-Nov-27 22:18:56 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([name2_0_] : [VARCHAR]) - [Test]
+2018-Nov-27 22:18:56 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([author3_0_] : [VARCHAR]) - [Test]
+2018-Nov-27 22:18:56 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([price4_0_] : [INTEGER]) - [100]
+2018-Nov-27 22:18:56 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([quantity5_0_] : [INTEGER]) - [1]
+2018-Nov-27 22:18:56 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([status6_0_] : [VARCHAR]) - [OK]
+2018-Nov-27 22:18:56 PM [main] INFO  src.dao.DbOperations - ----- all books: [src.entities.Books@ad5292a0, src.entities.Books@af07751b]
+2018-Nov-27 22:18:56 PM [main] DEBUG org.hibernate.SQL - 
+    /* get current state src.entities.Car */ select
+        car_.car_id,
+        car_.color as color2_1_,
+        car_.name as name3_1_ 
+    from
+        car car_ 
+    where
+        car_.car_id=?
+2018-Nov-27 22:18:56 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [1] as [INTEGER] - [0]
+2018-Nov-27 22:29:11 PM [main] DEBUG org.hibernate.SQL - 
+    select
+        books0_.id as id1_0_0_,
+        books0_.name as name2_0_0_,
+        books0_.author as author3_0_0_,
+        books0_.price as price4_0_0_,
+        books0_.quantity as quantity5_0_0_,
+        books0_.status as status6_0_0_ 
+    from
+        books books0_ 
+    where
+        books0_.id=?
+2018-Nov-27 22:29:11 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [1] as [INTEGER] - [101]
+2018-Nov-27 22:29:11 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([name2_0_0_] : [VARCHAR]) - [Test]
+2018-Nov-27 22:29:11 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([author3_0_0_] : [VARCHAR]) - [Test]
+2018-Nov-27 22:29:11 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([price4_0_0_] : [INTEGER]) - [100]
+2018-Nov-27 22:29:11 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([quantity5_0_0_] : [INTEGER]) - [1]
+2018-Nov-27 22:29:11 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([status6_0_0_] : [VARCHAR]) - [OK]
+2018-Nov-27 22:29:11 PM [main] INFO  src.dao.DbOperations - ----- load the book: src.entities.Books@af07751b
+2018-Nov-27 22:29:11 PM [main] DEBUG org.hibernate.SQL - 
+    /* 
+from
+    Books */ select
+        books0_.id as id1_0_,
+        books0_.name as name2_0_,
+        books0_.author as author3_0_,
+        books0_.price as price4_0_,
+        books0_.quantity as quantity5_0_,
+        books0_.status as status6_0_ 
+    from
+        books books0_
+2018-Nov-27 22:29:11 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([id1_0_] : [INTEGER]) - [100]
+2018-Nov-27 22:29:11 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([name2_0_] : [VARCHAR]) - [Test]
+2018-Nov-27 22:29:11 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([author3_0_] : [VARCHAR]) - [Test]
+2018-Nov-27 22:29:11 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([price4_0_] : [INTEGER]) - [100]
+2018-Nov-27 22:29:11 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([quantity5_0_] : [INTEGER]) - [1]
+2018-Nov-27 22:29:11 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([status6_0_] : [VARCHAR]) - []
+2018-Nov-27 22:29:11 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([id1_0_] : [INTEGER]) - [101]
+2018-Nov-27 22:29:11 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([name2_0_] : [VARCHAR]) - [Test]
+2018-Nov-27 22:29:11 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([author3_0_] : [VARCHAR]) - [Test]
+2018-Nov-27 22:29:11 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([price4_0_] : [INTEGER]) - [100]
+2018-Nov-27 22:29:11 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([quantity5_0_] : [INTEGER]) - [1]
+2018-Nov-27 22:29:11 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([status6_0_] : [VARCHAR]) - [OK]
+2018-Nov-27 22:29:11 PM [main] INFO  src.dao.DbOperations - ----- all books: [src.entities.Books@ad5292a0, src.entities.Books@af07751b]
+2018-Nov-27 22:29:11 PM [main] DEBUG org.hibernate.SQL - 
+    /* load src.entities.ShowRoom */ select
+        showroom0_.show_room_id as show_roo1_2_1_,
+        showroom0_.location as location2_2_1_,
+        showroom0_.manager as manager3_2_1_,
+        cars1_.show_room_id as show_roo4_1_3_,
+        cars1_.car_id as car_id1_1_3_,
+        cars1_.car_id as car_id1_1_0_,
+        cars1_.color as color2_1_0_,
+        cars1_.name as name3_1_0_ 
+    from
+        show_room showroom0_ 
+    left outer join
+        car cars1_ 
+            on showroom0_.show_room_id=cars1_.show_room_id 
+    where
+        showroom0_.show_room_id=?
+2018-Nov-27 22:29:11 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [1] as [INTEGER] - [0]
+2018-Nov-27 22:29:11 PM [main] DEBUG org.hibernate.SQL - 
+    /* load src.entities.Car */ select
+        car0_.car_id as car_id1_1_0_,
+        car0_.color as color2_1_0_,
+        car0_.name as name3_1_0_ 
+    from
+        car car0_ 
+    where
+        car0_.car_id=?
+2018-Nov-27 22:29:11 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [1] as [INTEGER] - [0]
+2018-Nov-27 22:35:35 PM [main] DEBUG org.hibernate.SQL - 
+    select
+        books0_.id as id1_0_0_,
+        books0_.name as name2_0_0_,
+        books0_.author as author3_0_0_,
+        books0_.price as price4_0_0_,
+        books0_.quantity as quantity5_0_0_,
+        books0_.status as status6_0_0_ 
+    from
+        books books0_ 
+    where
+        books0_.id=?
+2018-Nov-27 22:35:35 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [1] as [INTEGER] - [101]
+2018-Nov-27 22:35:35 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([name2_0_0_] : [VARCHAR]) - [Test]
+2018-Nov-27 22:35:35 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([author3_0_0_] : [VARCHAR]) - [Test]
+2018-Nov-27 22:35:35 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([price4_0_0_] : [INTEGER]) - [100]
+2018-Nov-27 22:35:35 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([quantity5_0_0_] : [INTEGER]) - [1]
+2018-Nov-27 22:35:35 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([status6_0_0_] : [VARCHAR]) - [OK]
+2018-Nov-27 22:35:35 PM [main] INFO  src.dao.DbOperations - ----- load the book: src.entities.Books@af07751b
+2018-Nov-27 22:35:35 PM [main] DEBUG org.hibernate.SQL - 
+    /* 
+from
+    Books */ select
+        books0_.id as id1_0_,
+        books0_.name as name2_0_,
+        books0_.author as author3_0_,
+        books0_.price as price4_0_,
+        books0_.quantity as quantity5_0_,
+        books0_.status as status6_0_ 
+    from
+        books books0_
+2018-Nov-27 22:35:35 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([id1_0_] : [INTEGER]) - [100]
+2018-Nov-27 22:35:35 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([name2_0_] : [VARCHAR]) - [Test]
+2018-Nov-27 22:35:35 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([author3_0_] : [VARCHAR]) - [Test]
+2018-Nov-27 22:35:35 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([price4_0_] : [INTEGER]) - [100]
+2018-Nov-27 22:35:35 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([quantity5_0_] : [INTEGER]) - [1]
+2018-Nov-27 22:35:35 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([status6_0_] : [VARCHAR]) - []
+2018-Nov-27 22:35:35 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([id1_0_] : [INTEGER]) - [101]
+2018-Nov-27 22:35:35 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([name2_0_] : [VARCHAR]) - [Test]
+2018-Nov-27 22:35:35 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([author3_0_] : [VARCHAR]) - [Test]
+2018-Nov-27 22:35:35 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([price4_0_] : [INTEGER]) - [100]
+2018-Nov-27 22:35:35 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([quantity5_0_] : [INTEGER]) - [1]
+2018-Nov-27 22:35:35 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([status6_0_] : [VARCHAR]) - [OK]
+2018-Nov-27 22:35:35 PM [main] INFO  src.dao.DbOperations - ----- all books: [src.entities.Books@ad5292a0, src.entities.Books@af07751b]
+2018-Nov-27 22:35:35 PM [main] DEBUG org.hibernate.SQL - 
+    /* get current state src.entities.Car */ select
+        car_.car_id,
+        car_.color as color2_1_,
+        car_.name as name3_1_ 
+    from
+        car car_ 
+    where
+        car_.car_id=?
+2018-Nov-27 22:35:35 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [1] as [INTEGER] - [0]
+2018-Nov-28 21:17:51 PM [main] DEBUG org.hibernate.SQL - 
+    select
+        books0_.id as id1_0_0_,
+        books0_.name as name2_0_0_,
+        books0_.author as author3_0_0_,
+        books0_.price as price4_0_0_,
+        books0_.quantity as quantity5_0_0_,
+        books0_.status as status6_0_0_ 
+    from
+        books books0_ 
+    where
+        books0_.id=?
+2018-Nov-28 21:17:51 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [1] as [INTEGER] - [101]
+2018-Nov-28 21:17:51 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([name2_0_0_] : [VARCHAR]) - [Test]
+2018-Nov-28 21:17:51 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([author3_0_0_] : [VARCHAR]) - [Test]
+2018-Nov-28 21:17:51 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([price4_0_0_] : [INTEGER]) - [100]
+2018-Nov-28 21:17:51 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([quantity5_0_0_] : [INTEGER]) - [1]
+2018-Nov-28 21:17:51 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([status6_0_0_] : [VARCHAR]) - [OK]
+2018-Nov-28 21:17:51 PM [main] INFO  src.dao.DbOperations - ----- load the book: src.entities.Books@af07751b
+2018-Nov-28 21:17:51 PM [main] DEBUG org.hibernate.SQL - 
+    /* 
+from
+    Books */ select
+        books0_.id as id1_0_,
+        books0_.name as name2_0_,
+        books0_.author as author3_0_,
+        books0_.price as price4_0_,
+        books0_.quantity as quantity5_0_,
+        books0_.status as status6_0_ 
+    from
+        books books0_
+2018-Nov-28 21:17:51 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([id1_0_] : [INTEGER]) - [100]
+2018-Nov-28 21:17:51 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([name2_0_] : [VARCHAR]) - [Test]
+2018-Nov-28 21:17:51 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([author3_0_] : [VARCHAR]) - [Test]
+2018-Nov-28 21:17:51 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([price4_0_] : [INTEGER]) - [100]
+2018-Nov-28 21:17:51 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([quantity5_0_] : [INTEGER]) - [1]
+2018-Nov-28 21:17:51 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([status6_0_] : [VARCHAR]) - []
+2018-Nov-28 21:17:51 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([id1_0_] : [INTEGER]) - [101]
+2018-Nov-28 21:17:51 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([name2_0_] : [VARCHAR]) - [Test]
+2018-Nov-28 21:17:51 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([author3_0_] : [VARCHAR]) - [Test]
+2018-Nov-28 21:17:51 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([price4_0_] : [INTEGER]) - [100]
+2018-Nov-28 21:17:51 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([quantity5_0_] : [INTEGER]) - [1]
+2018-Nov-28 21:17:51 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([status6_0_] : [VARCHAR]) - [OK]
+2018-Nov-28 21:17:51 PM [main] INFO  src.dao.DbOperations - ----- all books: [src.entities.Books@ad5292a0, src.entities.Books@af07751b]
+2018-Nov-28 21:17:51 PM [main] DEBUG org.hibernate.SQL - 
+    /* get current state src.entities.Car */ select
+        car_.car_id,
+        car_.color as color2_1_,
+        car_.name as name3_1_ 
+    from
+        car car_ 
+    where
+        car_.car_id=?
+2018-Nov-28 21:17:51 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [1] as [INTEGER] - [0]
+2018-Nov-28 21:43:19 PM [main] DEBUG org.hibernate.SQL - 
+    select
+        books0_.id as id1_0_0_,
+        books0_.name as name2_0_0_,
+        books0_.author as author3_0_0_,
+        books0_.price as price4_0_0_,
+        books0_.quantity as quantity5_0_0_,
+        books0_.status as status6_0_0_ 
+    from
+        books books0_ 
+    where
+        books0_.id=?
+2018-Nov-28 21:43:19 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [1] as [INTEGER] - [101]
+2018-Nov-28 21:43:19 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([name2_0_0_] : [VARCHAR]) - [Test]
+2018-Nov-28 21:43:19 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([author3_0_0_] : [VARCHAR]) - [Test]
+2018-Nov-28 21:43:19 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([price4_0_0_] : [INTEGER]) - [100]
+2018-Nov-28 21:43:19 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([quantity5_0_0_] : [INTEGER]) - [1]
+2018-Nov-28 21:43:19 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([status6_0_0_] : [VARCHAR]) - [OK]
+2018-Nov-28 21:43:19 PM [main] INFO  src.dao.DbOperations - ----- load the book: src.entities.Books@af07751b
+2018-Nov-28 21:43:19 PM [main] DEBUG org.hibernate.SQL - 
+    /* 
+from
+    Books */ select
+        books0_.id as id1_0_,
+        books0_.name as name2_0_,
+        books0_.author as author3_0_,
+        books0_.price as price4_0_,
+        books0_.quantity as quantity5_0_,
+        books0_.status as status6_0_ 
+    from
+        books books0_
+2018-Nov-28 21:43:19 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([id1_0_] : [INTEGER]) - [100]
+2018-Nov-28 21:43:19 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([name2_0_] : [VARCHAR]) - [Test]
+2018-Nov-28 21:43:19 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([author3_0_] : [VARCHAR]) - [Test]
+2018-Nov-28 21:43:19 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([price4_0_] : [INTEGER]) - [100]
+2018-Nov-28 21:43:19 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([quantity5_0_] : [INTEGER]) - [1]
+2018-Nov-28 21:43:19 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([status6_0_] : [VARCHAR]) - []
+2018-Nov-28 21:43:19 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([id1_0_] : [INTEGER]) - [101]
+2018-Nov-28 21:43:19 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([name2_0_] : [VARCHAR]) - [Test]
+2018-Nov-28 21:43:19 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([author3_0_] : [VARCHAR]) - [Test]
+2018-Nov-28 21:43:19 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([price4_0_] : [INTEGER]) - [100]
+2018-Nov-28 21:43:19 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([quantity5_0_] : [INTEGER]) - [1]
+2018-Nov-28 21:43:19 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([status6_0_] : [VARCHAR]) - [OK]
+2018-Nov-28 21:43:19 PM [main] INFO  src.dao.DbOperations - ----- all books: [src.entities.Books@ad5292a0, src.entities.Books@af07751b]
+2018-Nov-28 21:43:19 PM [main] DEBUG org.hibernate.SQL - 
+    /* get current state src.entities.Car */ select
+        car_.car_id,
+        car_.color as color2_1_,
+        car_.name as name3_1_ 
+    from
+        car car_ 
+    where
+        car_.car_id=?
+2018-Nov-28 21:43:19 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [1] as [INTEGER] - [1]
+2018-Nov-28 21:43:19 PM [main] DEBUG org.hibernate.SQL - 
+    /* get current state src.entities.Car */ select
+        car_.car_id,
+        car_.color as color2_1_,
+        car_.name as name3_1_ 
+    from
+        car car_ 
+    where
+        car_.car_id=?
+2018-Nov-28 21:43:19 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [1] as [INTEGER] - [2]
+2018-Nov-28 21:43:19 PM [main] DEBUG org.hibernate.SQL - 
+    /* get current state src.entities.Car */ select
+        car_.car_id,
+        car_.color as color2_1_,
+        car_.name as name3_1_ 
+    from
+        car car_ 
+    where
+        car_.car_id=?
+2018-Nov-28 21:43:19 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [1] as [INTEGER] - [4]
+2018-Nov-28 21:43:19 PM [main] DEBUG org.hibernate.SQL - 
+    /* get current state src.entities.Car */ select
+        car_.car_id,
+        car_.color as color2_1_,
+        car_.name as name3_1_ 
+    from
+        car car_ 
+    where
+        car_.car_id=?
+2018-Nov-28 21:43:19 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [1] as [INTEGER] - [3]
+2018-Nov-28 21:43:19 PM [main] DEBUG org.hibernate.SQL - 
+    /* insert src.entities.ShowRoom
+        */ insert 
+        into
+            show_room
+            (location, manager, show_room_id) 
+        values
+            (?, ?, ?)
+2018-Nov-28 21:43:19 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [1] as [VARCHAR] - [East Croydon, Greater London]
+2018-Nov-28 21:43:19 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [2] as [VARCHAR] - [Barry Larry]
+2018-Nov-28 21:43:19 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [3] as [INTEGER] - [0]
+2018-Nov-28 21:43:19 PM [main] DEBUG org.hibernate.SQL - 
+    /* insert src.entities.Car
+        */ insert 
+        into
+            car
+            (color, name, car_id) 
+        values
+            (?, ?, ?)
+2018-Nov-28 21:43:19 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [1] as [VARCHAR] - [Racing Green]
+2018-Nov-28 21:43:19 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [2] as [VARCHAR] - [Toyota]
+2018-Nov-28 21:43:19 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [3] as [INTEGER] - [1]
+2018-Nov-28 21:44:52 PM [main] DEBUG org.hibernate.SQL - 
+    select
+        books0_.id as id1_0_0_,
+        books0_.name as name2_0_0_,
+        books0_.author as author3_0_0_,
+        books0_.price as price4_0_0_,
+        books0_.quantity as quantity5_0_0_,
+        books0_.status as status6_0_0_ 
+    from
+        books books0_ 
+    where
+        books0_.id=?
+2018-Nov-28 21:44:52 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [1] as [INTEGER] - [101]
+2018-Nov-28 21:44:52 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([name2_0_0_] : [VARCHAR]) - [Test]
+2018-Nov-28 21:44:52 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([author3_0_0_] : [VARCHAR]) - [Test]
+2018-Nov-28 21:44:52 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([price4_0_0_] : [INTEGER]) - [100]
+2018-Nov-28 21:44:52 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([quantity5_0_0_] : [INTEGER]) - [1]
+2018-Nov-28 21:44:52 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([status6_0_0_] : [VARCHAR]) - [OK]
+2018-Nov-28 21:44:52 PM [main] INFO  src.dao.DbOperations - ----- load the book: src.entities.Books@af07751b
+2018-Nov-28 21:44:52 PM [main] DEBUG org.hibernate.SQL - 
+    /* 
+from
+    Books */ select
+        books0_.id as id1_0_,
+        books0_.name as name2_0_,
+        books0_.author as author3_0_,
+        books0_.price as price4_0_,
+        books0_.quantity as quantity5_0_,
+        books0_.status as status6_0_ 
+    from
+        books books0_
+2018-Nov-28 21:44:52 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([id1_0_] : [INTEGER]) - [100]
+2018-Nov-28 21:44:52 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([name2_0_] : [VARCHAR]) - [Test]
+2018-Nov-28 21:44:52 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([author3_0_] : [VARCHAR]) - [Test]
+2018-Nov-28 21:44:52 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([price4_0_] : [INTEGER]) - [100]
+2018-Nov-28 21:44:52 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([quantity5_0_] : [INTEGER]) - [1]
+2018-Nov-28 21:44:52 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([status6_0_] : [VARCHAR]) - []
+2018-Nov-28 21:44:52 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([id1_0_] : [INTEGER]) - [101]
+2018-Nov-28 21:44:52 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([name2_0_] : [VARCHAR]) - [Test]
+2018-Nov-28 21:44:52 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([author3_0_] : [VARCHAR]) - [Test]
+2018-Nov-28 21:44:52 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([price4_0_] : [INTEGER]) - [100]
+2018-Nov-28 21:44:52 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([quantity5_0_] : [INTEGER]) - [1]
+2018-Nov-28 21:44:52 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([status6_0_] : [VARCHAR]) - [OK]
+2018-Nov-28 21:44:52 PM [main] INFO  src.dao.DbOperations - ----- all books: [src.entities.Books@ad5292a0, src.entities.Books@af07751b]
+2018-Nov-28 21:44:52 PM [main] DEBUG org.hibernate.SQL - 
+    /* get current state src.entities.Car */ select
+        car_.car_id,
+        car_.color as color2_1_,
+        car_.name as name3_1_ 
+    from
+        car car_ 
+    where
+        car_.car_id=?
+2018-Nov-28 21:44:52 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [1] as [INTEGER] - [1]
+2018-Nov-28 21:44:52 PM [main] DEBUG org.hibernate.SQL - 
+    /* get current state src.entities.Car */ select
+        car_.car_id,
+        car_.color as color2_1_,
+        car_.name as name3_1_ 
+    from
+        car car_ 
+    where
+        car_.car_id=?
+2018-Nov-28 21:44:52 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [1] as [INTEGER] - [2]
+2018-Nov-28 21:44:52 PM [main] DEBUG org.hibernate.SQL - 
+    /* get current state src.entities.Car */ select
+        car_.car_id,
+        car_.color as color2_1_,
+        car_.name as name3_1_ 
+    from
+        car car_ 
+    where
+        car_.car_id=?
+2018-Nov-28 21:44:52 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [1] as [INTEGER] - [4]
+2018-Nov-28 21:44:52 PM [main] DEBUG org.hibernate.SQL - 
+    /* get current state src.entities.Car */ select
+        car_.car_id,
+        car_.color as color2_1_,
+        car_.name as name3_1_ 
+    from
+        car car_ 
+    where
+        car_.car_id=?
+2018-Nov-28 21:44:52 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [1] as [INTEGER] - [3]
+2018-Nov-28 21:44:52 PM [main] DEBUG org.hibernate.SQL - 
+    /* insert src.entities.ShowRoom
+        */ insert 
+        into
+            show_room
+            (location, manager, show_room_id) 
+        values
+            (?, ?, ?)
+2018-Nov-28 21:44:52 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [1] as [VARCHAR] - [East Croydon, Greater London]
+2018-Nov-28 21:44:52 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [2] as [VARCHAR] - [Barry Larry]
+2018-Nov-28 21:44:52 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [3] as [INTEGER] - [0]
+2018-Nov-28 21:44:52 PM [main] DEBUG org.hibernate.SQL - 
+    /* insert src.entities.Car
+        */ insert 
+        into
+            car
+            (color, name, car_id) 
+        values
+            (?, ?, ?)
+2018-Nov-28 21:44:52 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [1] as [VARCHAR] - [Racing Green]
+2018-Nov-28 21:44:52 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [2] as [VARCHAR] - [Toyota]
+2018-Nov-28 21:44:52 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [3] as [INTEGER] - [1]
+2018-Nov-28 21:55:22 PM [main] DEBUG org.hibernate.SQL - 
+    select
+        books0_.id as id1_0_0_,
+        books0_.name as name2_0_0_,
+        books0_.author as author3_0_0_,
+        books0_.price as price4_0_0_,
+        books0_.quantity as quantity5_0_0_,
+        books0_.status as status6_0_0_ 
+    from
+        books books0_ 
+    where
+        books0_.id=?
+2018-Nov-28 21:55:22 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [1] as [INTEGER] - [101]
+2018-Nov-28 21:55:22 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([name2_0_0_] : [VARCHAR]) - [Test]
+2018-Nov-28 21:55:22 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([author3_0_0_] : [VARCHAR]) - [Test]
+2018-Nov-28 21:55:22 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([price4_0_0_] : [INTEGER]) - [100]
+2018-Nov-28 21:55:22 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([quantity5_0_0_] : [INTEGER]) - [1]
+2018-Nov-28 21:55:22 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([status6_0_0_] : [VARCHAR]) - [OK]
+2018-Nov-28 21:55:22 PM [main] INFO  src.dao.DbOperations - ----- load the book: src.entities.Books@af07751b
+2018-Nov-28 21:55:22 PM [main] DEBUG org.hibernate.SQL - 
+    /* 
+from
+    Books */ select
+        books0_.id as id1_0_,
+        books0_.name as name2_0_,
+        books0_.author as author3_0_,
+        books0_.price as price4_0_,
+        books0_.quantity as quantity5_0_,
+        books0_.status as status6_0_ 
+    from
+        books books0_
+2018-Nov-28 21:55:22 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([id1_0_] : [INTEGER]) - [100]
+2018-Nov-28 21:55:22 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([name2_0_] : [VARCHAR]) - [Test]
+2018-Nov-28 21:55:22 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([author3_0_] : [VARCHAR]) - [Test]
+2018-Nov-28 21:55:22 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([price4_0_] : [INTEGER]) - [100]
+2018-Nov-28 21:55:22 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([quantity5_0_] : [INTEGER]) - [1]
+2018-Nov-28 21:55:22 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([status6_0_] : [VARCHAR]) - []
+2018-Nov-28 21:55:22 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([id1_0_] : [INTEGER]) - [101]
+2018-Nov-28 21:55:22 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([name2_0_] : [VARCHAR]) - [Test]
+2018-Nov-28 21:55:22 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([author3_0_] : [VARCHAR]) - [Test]
+2018-Nov-28 21:55:22 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([price4_0_] : [INTEGER]) - [100]
+2018-Nov-28 21:55:22 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([quantity5_0_] : [INTEGER]) - [1]
+2018-Nov-28 21:55:22 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([status6_0_] : [VARCHAR]) - [OK]
+2018-Nov-28 21:55:22 PM [main] INFO  src.dao.DbOperations - ----- all books: [src.entities.Books@ad5292a0, src.entities.Books@af07751b]
+2018-Nov-28 21:55:22 PM [main] DEBUG org.hibernate.SQL - 
+    /* get current state src.entities.Car */ select
+        car_.car_id,
+        car_.color as color2_1_,
+        car_.name as name3_1_ 
+    from
+        car car_ 
+    where
+        car_.car_id=?
+2018-Nov-28 21:55:22 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [1] as [INTEGER] - [0]
+2018-Nov-28 21:56:31 PM [main] DEBUG org.hibernate.SQL - 
+    select
+        books0_.id as id1_0_0_,
+        books0_.name as name2_0_0_,
+        books0_.author as author3_0_0_,
+        books0_.price as price4_0_0_,
+        books0_.quantity as quantity5_0_0_,
+        books0_.status as status6_0_0_ 
+    from
+        books books0_ 
+    where
+        books0_.id=?
+2018-Nov-28 21:56:31 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [1] as [INTEGER] - [101]
+2018-Nov-28 21:56:31 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([name2_0_0_] : [VARCHAR]) - [Test]
+2018-Nov-28 21:56:31 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([author3_0_0_] : [VARCHAR]) - [Test]
+2018-Nov-28 21:56:31 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([price4_0_0_] : [INTEGER]) - [100]
+2018-Nov-28 21:56:31 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([quantity5_0_0_] : [INTEGER]) - [1]
+2018-Nov-28 21:56:31 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([status6_0_0_] : [VARCHAR]) - [OK]
+2018-Nov-28 21:56:31 PM [main] INFO  src.dao.DbOperations - ----- load the book: src.entities.Books@af07751b
+2018-Nov-28 21:56:31 PM [main] DEBUG org.hibernate.SQL - 
+    /* 
+from
+    Books */ select
+        books0_.id as id1_0_,
+        books0_.name as name2_0_,
+        books0_.author as author3_0_,
+        books0_.price as price4_0_,
+        books0_.quantity as quantity5_0_,
+        books0_.status as status6_0_ 
+    from
+        books books0_
+2018-Nov-28 21:56:31 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([id1_0_] : [INTEGER]) - [100]
+2018-Nov-28 21:56:31 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([name2_0_] : [VARCHAR]) - [Test]
+2018-Nov-28 21:56:31 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([author3_0_] : [VARCHAR]) - [Test]
+2018-Nov-28 21:56:31 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([price4_0_] : [INTEGER]) - [100]
+2018-Nov-28 21:56:31 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([quantity5_0_] : [INTEGER]) - [1]
+2018-Nov-28 21:56:31 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([status6_0_] : [VARCHAR]) - []
+2018-Nov-28 21:56:31 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([id1_0_] : [INTEGER]) - [101]
+2018-Nov-28 21:56:31 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([name2_0_] : [VARCHAR]) - [Test]
+2018-Nov-28 21:56:31 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([author3_0_] : [VARCHAR]) - [Test]
+2018-Nov-28 21:56:31 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([price4_0_] : [INTEGER]) - [100]
+2018-Nov-28 21:56:31 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([quantity5_0_] : [INTEGER]) - [1]
+2018-Nov-28 21:56:31 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([status6_0_] : [VARCHAR]) - [OK]
+2018-Nov-28 21:56:31 PM [main] INFO  src.dao.DbOperations - ----- all books: [src.entities.Books@ad5292a0, src.entities.Books@af07751b]
+2018-Nov-28 21:56:31 PM [main] DEBUG org.hibernate.SQL - 
+    /* get current state src.entities.Car */ select
+        car_.car_id,
+        car_.color as color2_1_,
+        car_.name as name3_1_ 
+    from
+        car car_ 
+    where
+        car_.car_id=?
+2018-Nov-28 21:56:31 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [1] as [INTEGER] - [0]
+2018-Nov-28 22:04:37 PM [main] DEBUG org.hibernate.SQL - 
+    select
+        books0_.id as id1_0_0_,
+        books0_.name as name2_0_0_,
+        books0_.author as author3_0_0_,
+        books0_.price as price4_0_0_,
+        books0_.quantity as quantity5_0_0_,
+        books0_.status as status6_0_0_ 
+    from
+        books books0_ 
+    where
+        books0_.id=?
+2018-Nov-28 22:04:37 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [1] as [INTEGER] - [101]
+2018-Nov-28 22:04:37 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([name2_0_0_] : [VARCHAR]) - [Test]
+2018-Nov-28 22:04:37 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([author3_0_0_] : [VARCHAR]) - [Test]
+2018-Nov-28 22:04:37 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([price4_0_0_] : [INTEGER]) - [100]
+2018-Nov-28 22:04:37 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([quantity5_0_0_] : [INTEGER]) - [1]
+2018-Nov-28 22:04:37 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([status6_0_0_] : [VARCHAR]) - [OK]
+2018-Nov-28 22:04:37 PM [main] INFO  src.dao.DbOperations - ----- load the book: src.entities.Books@af07751b
+2018-Nov-28 22:04:37 PM [main] DEBUG org.hibernate.SQL - 
+    /* 
+from
+    Books */ select
+        books0_.id as id1_0_,
+        books0_.name as name2_0_,
+        books0_.author as author3_0_,
+        books0_.price as price4_0_,
+        books0_.quantity as quantity5_0_,
+        books0_.status as status6_0_ 
+    from
+        books books0_
+2018-Nov-28 22:04:37 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([id1_0_] : [INTEGER]) - [100]
+2018-Nov-28 22:04:37 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([name2_0_] : [VARCHAR]) - [Test]
+2018-Nov-28 22:04:37 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([author3_0_] : [VARCHAR]) - [Test]
+2018-Nov-28 22:04:37 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([price4_0_] : [INTEGER]) - [100]
+2018-Nov-28 22:04:37 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([quantity5_0_] : [INTEGER]) - [1]
+2018-Nov-28 22:04:37 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([status6_0_] : [VARCHAR]) - []
+2018-Nov-28 22:04:37 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([id1_0_] : [INTEGER]) - [101]
+2018-Nov-28 22:04:37 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([name2_0_] : [VARCHAR]) - [Test]
+2018-Nov-28 22:04:37 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([author3_0_] : [VARCHAR]) - [Test]
+2018-Nov-28 22:04:37 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([price4_0_] : [INTEGER]) - [100]
+2018-Nov-28 22:04:37 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([quantity5_0_] : [INTEGER]) - [1]
+2018-Nov-28 22:04:37 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([status6_0_] : [VARCHAR]) - [OK]
+2018-Nov-28 22:04:37 PM [main] INFO  src.dao.DbOperations - ----- all books: [src.entities.Books@ad5292a0, src.entities.Books@af07751b]
+2018-Nov-28 22:04:37 PM [main] DEBUG org.hibernate.SQL - 
+    /* get current state src.entities.Car */ select
+        car_.car_id,
+        car_.color as color2_1_,
+        car_.name as name3_1_ 
+    from
+        car car_ 
+    where
+        car_.car_id=?
+2018-Nov-28 22:04:37 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [1] as [INTEGER] - [1]
+2018-Nov-28 22:04:37 PM [main] DEBUG org.hibernate.SQL - 
+    /* get current state src.entities.Car */ select
+        car_.car_id,
+        car_.color as color2_1_,
+        car_.name as name3_1_ 
+    from
+        car car_ 
+    where
+        car_.car_id=?
+2018-Nov-28 22:04:37 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [1] as [INTEGER] - [2]
+2018-Nov-28 22:04:37 PM [main] DEBUG org.hibernate.SQL - 
+    /* get current state src.entities.Car */ select
+        car_.car_id,
+        car_.color as color2_1_,
+        car_.name as name3_1_ 
+    from
+        car car_ 
+    where
+        car_.car_id=?
+2018-Nov-28 22:04:37 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [1] as [INTEGER] - [4]
+2018-Nov-28 22:04:37 PM [main] DEBUG org.hibernate.SQL - 
+    /* get current state src.entities.Car */ select
+        car_.car_id,
+        car_.color as color2_1_,
+        car_.name as name3_1_ 
+    from
+        car car_ 
+    where
+        car_.car_id=?
+2018-Nov-28 22:04:37 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [1] as [INTEGER] - [3]
+2018-Nov-28 22:04:37 PM [main] DEBUG org.hibernate.SQL - 
+    /* insert src.entities.ShowRoom
+        */ insert 
+        into
+            show_room
+            (location, manager, show_room_id) 
+        values
+            (?, ?, ?)
+2018-Nov-28 22:04:37 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [1] as [VARCHAR] - [East Croydon, Greater London]
+2018-Nov-28 22:04:37 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [2] as [VARCHAR] - [Barry Larry]
+2018-Nov-28 22:04:37 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [3] as [INTEGER] - [0]
+2018-Nov-28 22:04:37 PM [main] DEBUG org.hibernate.SQL - 
+    /* insert src.entities.Car
+        */ insert 
+        into
+            car
+            (color, name, car_id) 
+        values
+            (?, ?, ?)
+2018-Nov-28 22:04:37 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [1] as [VARCHAR] - [Racing Green]
+2018-Nov-28 22:04:37 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [2] as [VARCHAR] - [Toyota]
+2018-Nov-28 22:04:37 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [3] as [INTEGER] - [1]
+2018-Nov-28 22:19:15 PM [main] DEBUG org.hibernate.SQL - 
+    select
+        books0_.id as id1_0_0_,
+        books0_.name as name2_0_0_,
+        books0_.author as author3_0_0_,
+        books0_.price as price4_0_0_,
+        books0_.quantity as quantity5_0_0_,
+        books0_.status as status6_0_0_ 
+    from
+        books books0_ 
+    where
+        books0_.id=?
+2018-Nov-28 22:19:15 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [1] as [INTEGER] - [101]
+2018-Nov-28 22:19:15 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([name2_0_0_] : [VARCHAR]) - [Test]
+2018-Nov-28 22:19:15 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([author3_0_0_] : [VARCHAR]) - [Test]
+2018-Nov-28 22:19:15 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([price4_0_0_] : [INTEGER]) - [100]
+2018-Nov-28 22:19:15 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([quantity5_0_0_] : [INTEGER]) - [1]
+2018-Nov-28 22:19:15 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([status6_0_0_] : [VARCHAR]) - [OK]
+2018-Nov-28 22:19:15 PM [main] INFO  src.dao.DbOperations - ----- load the book: src.entities.Books@af07751b
+2018-Nov-28 22:19:15 PM [main] DEBUG org.hibernate.SQL - 
+    /* 
+from
+    Books */ select
+        books0_.id as id1_0_,
+        books0_.name as name2_0_,
+        books0_.author as author3_0_,
+        books0_.price as price4_0_,
+        books0_.quantity as quantity5_0_,
+        books0_.status as status6_0_ 
+    from
+        books books0_
+2018-Nov-28 22:19:15 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([id1_0_] : [INTEGER]) - [100]
+2018-Nov-28 22:19:15 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([name2_0_] : [VARCHAR]) - [Test]
+2018-Nov-28 22:19:15 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([author3_0_] : [VARCHAR]) - [Test]
+2018-Nov-28 22:19:15 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([price4_0_] : [INTEGER]) - [100]
+2018-Nov-28 22:19:15 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([quantity5_0_] : [INTEGER]) - [1]
+2018-Nov-28 22:19:15 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([status6_0_] : [VARCHAR]) - []
+2018-Nov-28 22:19:15 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([id1_0_] : [INTEGER]) - [101]
+2018-Nov-28 22:19:15 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([name2_0_] : [VARCHAR]) - [Test]
+2018-Nov-28 22:19:15 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([author3_0_] : [VARCHAR]) - [Test]
+2018-Nov-28 22:19:15 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([price4_0_] : [INTEGER]) - [100]
+2018-Nov-28 22:19:15 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([quantity5_0_] : [INTEGER]) - [1]
+2018-Nov-28 22:19:15 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([status6_0_] : [VARCHAR]) - [OK]
+2018-Nov-28 22:19:15 PM [main] INFO  src.dao.DbOperations - ----- all books: [src.entities.Books@ad5292a0, src.entities.Books@af07751b]
+2018-Nov-28 22:19:15 PM [main] DEBUG org.hibernate.SQL - 
+    /* get current state src.entities.Car */ select
+        car_.car_id,
+        car_.color as color2_1_,
+        car_.name as name3_1_ 
+    from
+        car car_ 
+    where
+        car_.car_id=?
+2018-Nov-28 22:19:15 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [1] as [INTEGER] - [1]
+2018-Nov-28 22:19:15 PM [main] DEBUG org.hibernate.SQL - 
+    /* get current state src.entities.Car */ select
+        car_.car_id,
+        car_.color as color2_1_,
+        car_.name as name3_1_ 
+    from
+        car car_ 
+    where
+        car_.car_id=?
+2018-Nov-28 22:19:15 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [1] as [INTEGER] - [2]
+2018-Nov-28 22:19:15 PM [main] DEBUG org.hibernate.SQL - 
+    /* get current state src.entities.Car */ select
+        car_.car_id,
+        car_.color as color2_1_,
+        car_.name as name3_1_ 
+    from
+        car car_ 
+    where
+        car_.car_id=?
+2018-Nov-28 22:19:15 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [1] as [INTEGER] - [4]
+2018-Nov-28 22:19:15 PM [main] DEBUG org.hibernate.SQL - 
+    /* get current state src.entities.Car */ select
+        car_.car_id,
+        car_.color as color2_1_,
+        car_.name as name3_1_ 
+    from
+        car car_ 
+    where
+        car_.car_id=?
+2018-Nov-28 22:19:15 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [1] as [INTEGER] - [3]
+2018-Nov-28 22:19:15 PM [main] DEBUG org.hibernate.SQL - 
+    /* insert src.entities.ShowRoom
+        */ insert 
+        into
+            show_room
+            (location, manager, show_room_id) 
+        values
+            (?, ?, ?)
+2018-Nov-28 22:19:15 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [1] as [VARCHAR] - [East Croydon, Greater London]
+2018-Nov-28 22:19:15 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [2] as [VARCHAR] - [Barry Larry]
+2018-Nov-28 22:19:15 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [3] as [INTEGER] - [0]
+2018-Nov-28 22:19:15 PM [main] DEBUG org.hibernate.SQL - 
+    /* insert src.entities.Car
+        */ insert 
+        into
+            car
+            (color, name, car_id) 
+        values
+            (?, ?, ?)
+2018-Nov-28 22:19:15 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [1] as [VARCHAR] - [Racing Green]
+2018-Nov-28 22:19:15 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [2] as [VARCHAR] - [Toyota]
+2018-Nov-28 22:19:15 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [3] as [INTEGER] - [1]

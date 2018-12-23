@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="src.entities.ShowRoom" table="show_room" schema="sys">
+        <id name="showRoomId">
+            <column name="show_room_id" sql-type="int(10)"/>
+        </id>
+        <property name="location">
+            <column name="location" sql-type="varchar(100)" length="100"/>
+        </property>
+        <property name="manager">
+            <column name="manager" sql-type="varchar(100)" length="100"/>
+        </property>
+
+        <set name="cars" cascade="all" table="car">
+            <key column="show_room_id" />
+            <one-to-many class="src.entities.Car"/>
+        </set>
+    </class>
+</hibernate-mapping>
