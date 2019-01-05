@@ -22,6 +22,7 @@ public class HelloWorld {
             //logger.info("*********** book **********: " + book);
             //transaction.commit();
 
+            //test
             DbOperations operation = new DbOperations();
             operation.findBook(101);
 
