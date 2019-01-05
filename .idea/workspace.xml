@@ -122,7 +122,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="gradle" value="26" />
-          <entry key="java" value="1192" />
+          <entry key="java" value="1195" />
           <entry key="sql" value="250" />
           <entry key="txt" value="3" />
           <entry key="xml" value="213" />
@@ -131,7 +131,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Groovy" value="26" />
-          <entry key="JAVA" value="983" />
+          <entry key="JAVA" value="986" />
           <entry key="PLAIN_TEXT" value="3" />
           <entry key="Scratch" value="459" />
           <entry key="XML" value="213" />
@@ -148,7 +148,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/src/HelloWorld.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="329">
-              <caret line="21" column="58" selection-start-line="21" selection-start-column="58" selection-end-line="21" selection-end-column="58" />
+              <caret line="21" column="61" selection-start-line="21" selection-start-column="61" selection-end-line="21" selection-end-column="61" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -728,7 +728,7 @@
     <property name="SearchEverywhereHistoryKey" value="slf4j&#9;PSI&#9;JAVA://org.jboss.logging.Slf4jLogger&#10;Main()&#9;PSI&#9;JAVA://org.jboss.jandex.Main" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546662955146" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546680540602" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JAVA" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -810,12 +810,12 @@
       <workItem from="1543392829775" duration="3687000" />
       <workItem from="1543399140575" duration="2043000" />
       <workItem from="1543703434750" duration="1762000" />
-      <workItem from="1546601670583" duration="2810000" />
+      <workItem from="1546601670583" duration="3014000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45154000" />
+    <option name="totallyTimeSpent" value="45358000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1120,7 +1120,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/src/HelloWorld.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="329">
-          <caret line="21" column="58" selection-start-line="21" selection-start-column="58" selection-end-line="21" selection-end-column="58" />
+          <caret line="21" column="61" selection-start-line="21" selection-start-column="61" selection-end-line="21" selection-end-column="61" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
