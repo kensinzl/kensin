@@ -19,7 +19,7 @@ public class HelloWorld {
         try {
             Books book = new Books(101, "Test", "Test", 100, 1, "OK");
             session.save(book);
-            logger.info("*********** book **********:   " + book);
+            logger.info("*********** book **********:      " + book);
             transaction.commit();
 
 //            DbOperations operation = new DbOperations();
