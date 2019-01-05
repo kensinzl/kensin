@@ -5,6 +5,8 @@
 <hibernate-configuration>
   <session-factory>
     <property name="connection.url">jdbc:mysql://localhost:3306/sys</property>
+    <property name="connection.username">root</property>
+    <property name="connection.password">Zlbs989277229</property>
     <!--<property name="connection.driver_class">com.mysql.jdbc.Driver</property>-->
     <property name="connection.driver_class">com.mysql.jdbc.Driver</property>
       <!-- JDBC connection pool (use the built-in) -->
@@ -22,7 +24,7 @@
     <!-- 是否使用注释  -->
     <property name="use_sql_comments">true</property>
     <!-- Drop and re-create the database schema on startup -->
-    <property name="hbm2ddl.auto">update</property>
+    <property name="hbm2ddl.auto">create</property>
 
 
     <mapping resource="BooksEntity.hbm.xml"/>
@@ -31,10 +33,6 @@
     <mapping resource="Car.hbm.xml"/>
     <mapping class="src.entities.ShowRoom"/>
     <mapping resource="ShowRoom.hbm.xml"/>
-      <mapping class="src.entities.Certificate"/>
-      <mapping resource="src/entities/Certificate.hbm.xml"/>
-      <mapping class="src.entities.Employee"/>
-      <mapping resource="src/entities/Employee.hbm.xml"/>
 
   </session-factory>
 </hibernate-configuration>

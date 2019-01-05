@@ -14,20 +14,20 @@ public class HelloWorld {
 
     public static void main(String[] args) {
 
-        //final Session session = HibernateUtil.getSession();
-        //Transaction transaction = session.beginTransaction();
+        final Session session = HibernateUtil.getSession();
+        Transaction transaction = session.beginTransaction();
         try {
-            //Books book = new Books(101, "Test", "Test", 100, 1, "OK");
-            //session.save(book);
-            //logger.info("*********** book **********: " + book);
-            //transaction.commit();
+            Books book = new Books(101, "Test", "Test", 100, 1, "OK");
+            session.save(book);
+            logger.info("*********** book **********: " + book);
+            transaction.commit();
 
-            DbOperations operation = new DbOperations();
-            operation.findBook(101);
-
-            operation.findAllBook();
-
-            operation.persistAnnotatedLists();
+//            DbOperations operation = new DbOperations();
+//            operation.findBook(101);
+//
+//            operation.findAllBook();
+//
+//            operation.persistAnnotatedLists();
 
         } catch (Exception e) {
             //transaction.rollback();

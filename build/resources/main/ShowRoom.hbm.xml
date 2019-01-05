@@ -14,9 +14,9 @@
         <property name="manager">
             <column name="manager" sql-type="varchar(100)" length="100"/>
         </property>
+
         <set name="cars" cascade="all" table="car">
             <key column="show_room_id" />
-            <!--<index column="car_index"/>-->
             <one-to-many class="src.entities.Car"/>
         </set>
     </class>
